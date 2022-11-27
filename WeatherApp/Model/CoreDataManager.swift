@@ -37,11 +37,11 @@ final class CoreDataManager {
         return false
     }
     
-    func getNotes() -> [CoreDataModel] {
+    func getNotes() -> [CoreDataWeather] {
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CoreDataWeather")
         do {
             let weathers = try managedContext.fetch(fetchRequest)
-            return weathers as! [CoreDataModel]
+            return weathers as! [CoreDataWeather]
         } catch let error as NSError {
             print("Could not fetch. \(error), \(error.userInfo)")
         }

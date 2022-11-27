@@ -11,6 +11,7 @@ import Kingfisher
 class DetailViewController: BaseViewController {
 
     var weather: Weather?
+    
     @IBOutlet private weak var cityNameLabel: UILabel!
     @IBOutlet private weak var countryNameLabel: UILabel!
     @IBOutlet private weak var timeLabel: UILabel!
@@ -49,13 +50,14 @@ class DetailViewController: BaseViewController {
     }
     
     @objc func addFavoriteButton(_ sender: Any) {
-        CoreDataManager.shared.saveNote(model: CoreDataModel(temperature: (weather?.current.temperature)!,
+        
+        let response = CoreDataManager.shared.saveNote(model: CoreDataModel(temperature: (weather?.current.temperature)!,
                                                              wind: (weather?.current.windSpeed)!,
-                                                             icon: (weather?.current.weatherIcons)!,
+                                                             icon: (weather?.current.weatherIcons[0])!,
                                                              name: (weather?.location.name)!,
                                                              time: (weather?.current.observationTime)!,
-                                                             weatherDescription: (weather?.current.weatherDescriptions)!))
-        
+                                                             weatherDescription: (weather?.current.weatherDescriptions[0])!))
+        print(response)
     }
     
     @objc func refreshButton(_ sender: Any) {

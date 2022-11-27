@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71109AC929336B0100F99AD2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71109AC829336B0100F99AD2 /* CoreDataManager.swift */; };
-		71109ACB29336B3900F99AD2 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71109ACA29336B3900F99AD2 /* CoreDataModel.swift */; };
+		71109ACD2933700800F99AD2 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71109ACC2933700800F99AD2 /* CoreDataModel.swift */; };
 		712EC4AA29333E8D00C959F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4A929333E8D00C959F1 /* AppDelegate.swift */; };
 		712EC4AC29333E8D00C959F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4AB29333E8D00C959F1 /* SceneDelegate.swift */; };
 		712EC4B129333E8D00C959F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712EC4AF29333E8D00C959F1 /* Main.storyboard */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		71109AC829336B0100F99AD2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		71109ACA29336B3900F99AD2 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		71109ACC2933700800F99AD2 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
 		712EC4A629333E8D00C959F1 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712EC4A929333E8D00C959F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712EC4AB29333E8D00C959F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 			children = (
 				712EC4C2293346A300C959F1 /* Weather.swift */,
 				71109AC829336B0100F99AD2 /* CoreDataManager.swift */,
-				71109ACA29336B3900F99AD2 /* CoreDataModel.swift */,
+				71109ACC2933700800F99AD2 /* CoreDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,7 +219,7 @@
 				712EC4C929334E5F00C959F1 /* BaseResponse.swift in Sources */,
 				712EC4DA29335AE300C959F1 /* FavoriteWeatherViewController.swift in Sources */,
 				712EC4D229335A5600C959F1 /* BaseViewController.swift in Sources */,
-				71109ACB29336B3900F99AD2 /* CoreDataModel.swift in Sources */,
+				71109ACD2933700800F99AD2 /* CoreDataModel.swift in Sources */,
 				712EC4DC29335B1700C959F1 /* HomeViewController.swift in Sources */,
 				712EC4AC29333E8D00C959F1 /* SceneDelegate.swift in Sources */,
 				712EC4C3293346A300C959F1 /* Weather.swift in Sources */,
