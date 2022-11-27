@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		712EC4AA29333E8D00C959F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4A929333E8D00C959F1 /* AppDelegate.swift */; };
 		712EC4AC29333E8D00C959F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4AB29333E8D00C959F1 /* SceneDelegate.swift */; };
-		712EC4AE29333E8D00C959F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4AD29333E8D00C959F1 /* ViewController.swift */; };
+		712EC4AE29333E8D00C959F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4AD29333E8D00C959F1 /* LoginViewController.swift */; };
 		712EC4B129333E8D00C959F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712EC4AF29333E8D00C959F1 /* Main.storyboard */; };
 		712EC4B429333E8D00C959F1 /* WeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 712EC4B229333E8D00C959F1 /* WeatherApp.xcdatamodeld */; };
 		712EC4B629333E8D00C959F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712EC4B529333E8D00C959F1 /* Assets.xcassets */; };
 		712EC4B929333E8D00C959F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712EC4B729333E8D00C959F1 /* LaunchScreen.storyboard */; };
+		9A897E2F29334AD700A2BB1C /* SwiftAlertView in Frameworks */ = {isa = PBXBuildFile; productRef = 9A897E2E29334AD700A2BB1C /* SwiftAlertView */; };
+		9A897E3129334B1300A2BB1C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A897E3029334B1300A2BB1C /* BaseViewController.swift */; };
+		9A897E3329334EEE00A2BB1C /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A897E3229334EEE00A2BB1C /* FavoriteViewController.swift */; };
+		9A897E36293350BA00A2BB1C /* MaterialActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 9A897E35293350BA00A2BB1C /* MaterialActivityIndicator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		712EC4A629333E8D00C959F1 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712EC4A929333E8D00C959F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712EC4AB29333E8D00C959F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		712EC4AD29333E8D00C959F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		712EC4AD29333E8D00C959F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		712EC4B029333E8D00C959F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712EC4B329333E8D00C959F1 /* WeatherApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeatherApp.xcdatamodel; sourceTree = "<group>"; };
 		712EC4B529333E8D00C959F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		712EC4B829333E8D00C959F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		712EC4BA29333E8D00C959F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A897E3029334B1300A2BB1C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A897E3229334EEE00A2BB1C /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A897E36293350BA00A2BB1C /* MaterialActivityIndicator in Frameworks */,
+				9A897E2F29334AD700A2BB1C /* SwiftAlertView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +68,9 @@
 			children = (
 				712EC4A929333E8D00C959F1 /* AppDelegate.swift */,
 				712EC4AB29333E8D00C959F1 /* SceneDelegate.swift */,
-				712EC4AD29333E8D00C959F1 /* ViewController.swift */,
+				712EC4AD29333E8D00C959F1 /* LoginViewController.swift */,
+				9A897E3229334EEE00A2BB1C /* FavoriteViewController.swift */,
+				9A897E3029334B1300A2BB1C /* BaseViewController.swift */,
 				712EC4AF29333E8D00C959F1 /* Main.storyboard */,
 				712EC4B529333E8D00C959F1 /* Assets.xcassets */,
 				712EC4B729333E8D00C959F1 /* LaunchScreen.storyboard */,
@@ -86,6 +96,10 @@
 			dependencies = (
 			);
 			name = WeatherApp;
+			packageProductDependencies = (
+				9A897E2E29334AD700A2BB1C /* SwiftAlertView */,
+				9A897E35293350BA00A2BB1C /* MaterialActivityIndicator */,
+			);
 			productName = WeatherApp;
 			productReference = 712EC4A629333E8D00C959F1 /* WeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +128,10 @@
 				Base,
 			);
 			mainGroup = 712EC49D29333E8D00C959F1;
+			packageReferences = (
+				9A897E2D29334AD700A2BB1C /* XCRemoteSwiftPackageReference "SwiftAlertView" */,
+				9A897E34293350BA00A2BB1C /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */,
+			);
 			productRefGroup = 712EC4A729333E8D00C959F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,9 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A897E3129334B1300A2BB1C /* BaseViewController.swift in Sources */,
 				712EC4B429333E8D00C959F1 /* WeatherApp.xcdatamodeld in Sources */,
-				712EC4AE29333E8D00C959F1 /* ViewController.swift in Sources */,
+				712EC4AE29333E8D00C959F1 /* LoginViewController.swift in Sources */,
 				712EC4AA29333E8D00C959F1 /* AppDelegate.swift in Sources */,
+				9A897E3329334EEE00A2BB1C /* FavoriteViewController.swift in Sources */,
 				712EC4AC29333E8D00C959F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +382,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A897E2D29334AD700A2BB1C /* XCRemoteSwiftPackageReference "SwiftAlertView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dinhquan/SwiftAlertView.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9A897E34293350BA00A2BB1C /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nspavlo/MaterialActivityIndicator";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A897E2E29334AD700A2BB1C /* SwiftAlertView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A897E2D29334AD700A2BB1C /* XCRemoteSwiftPackageReference "SwiftAlertView" */;
+			productName = SwiftAlertView;
+		};
+		9A897E35293350BA00A2BB1C /* MaterialActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A897E34293350BA00A2BB1C /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */;
+			productName = MaterialActivityIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		712EC4B229333E8D00C959F1 /* WeatherApp.xcdatamodeld */ = {
